@@ -30,4 +30,12 @@ fn main() {
         numba -= 1;
     }
     println!("Lift off!");
+    let ligma = [10, 20, 30, 40, 50];
+    for element in ligma {
+        println!("the value is: {element}");
+    }
+    for number in (1..6).rev() {
+        println!("{number}");
+    }
+    println!("LIFTOFF!");
 }
