@@ -38,6 +38,9 @@ fn main() {
             curr_pres = presents[index].to_string();
             curr_verse.push_str(&curr_pres);
         } else {
+            for &item in presents.iter().take(index + 1) {
+                curr_verse.push_str(item);
+            }
         }
 
         curr_verse.push_str("\n");
