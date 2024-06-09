@@ -1,13 +1,14 @@
 fn main() {
     let mut lyrics = String::from("");
     let mut curr_verse = String::from("");
+    let mut curr_pres = String::from("");
     let on_the: &str = "On the ";
     let day_of: &str = " day of Christmas, my true love gave to me: ";
     let days = [
         "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth",
         "tenth", "eleventh", "twelve",
     ];
-    let _presents = [
+    let presents = [
         "a partridge in a pair tree.",
         "Two turle doves, and ",
         "Three French hens, ",
@@ -33,6 +34,13 @@ fn main() {
         let curr_day = element;
         curr_verse.push_str(&curr_day);
         curr_verse.push_str(&day_of);
+        if index == 0 {
+            curr_pres = presents[index].to_string();
+            curr_verse.push_str(&curr_pres);
+        } else {
+        }
+
+        curr_verse.push_str("\n");
         // we need to loop through the days array, printing the day between the on_the and day_of
         // on each iteration if index > 0, we add all previous indices of 'presents' after the current is printed
         // added in reverse order. This loop adds lyrics to the end of a string element (&mut lyrics)
