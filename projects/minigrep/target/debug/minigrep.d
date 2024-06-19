@@ -1,1 +1,1 @@
-/Users/danieljohnson/Desktop/development/personal/learn-rust/projects/minigrep/target/debug/minigrep: /Users/danieljohnson/Desktop/development/personal/learn-rust/projects/minigrep/src/main.rs
+/Users/danieljohnson/Desktop/development/personal/learn-rust/projects/minigrep/target/debug/minigrep: /Users/danieljohnson/Desktop/development/personal/learn-rust/projects/minigrep/src/lib.rs /Users/danieljohnson/Desktop/development/personal/learn-rust/projects/minigrep/src/main.rs
