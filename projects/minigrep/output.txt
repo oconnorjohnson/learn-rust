@@ -1,0 +1,6 @@
+Are you nobody, too?
+How dreary to be somebody!
+
+
+// generated via
+// cargo run -- to poem.txt > output.txt
